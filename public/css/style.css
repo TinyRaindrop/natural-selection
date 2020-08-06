@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #40404a;
+  color: #eee;
+  font-family: 'Gill Sans MT', 'Helvetica', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  /* padding: 0 25px 25px 25px; */
+}
+
+h1 {
+  flex: 1;
+  text-align: center;
+}
+
+.chart-container {
+  /* position: relative; */
+}
